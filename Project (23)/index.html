@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shortly</title>
+  </head>
+  <body>
+    <div class="Cont1">
+      <img src="./images/Tablet-img1.png" alt="Tablet" class="Tablet__img1" />
+      <img
+        src="./images/Mobile-img2.svg"
+        alt="Mobile-img2"
+        class="Mobile__img2"
+      />
+      <script>
+        function Function9() {
+          document.getElementById("FINAL").style.cssText = "display: flex;";
+        }
+        function Function10() {
+          document.getElementById("FINAL").style.cssText = "display: none;";
+        }
+      </script>
+      <div id="FINAL" onmouseleave="Function10()">
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Resources</a>
+        <span></span>
+        <a href="#">Login</a>
+        <button>Sign up</button>
+      </div>
+      <div class="Cont1__1">
+        <img src="./images/Logo.svg" alt="Logo" class="Logo1" />
+        <img
+          src="./images/Mobile-img1.svg"
+          alt="Mobile-img1"
+          class="Mobile__img1"
+          onclick="Function9()"
+        />
+        <div>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Resources</a>
+          <a href="#" p>Login</a>
+        </div>
+        <button>Sign Up</button>
+      </div>
+      <div class="Cont1__2">
+        <p>More than just shorter links</p>
+        <span>
+          Build your brand’s recognition and get detailed insights on how your
+          links are performing.
+        </span>
+        <button>Get Started</button>
+      </div>
+      <div class="Cont1__3">
+        <form>
+          <input
+            type="text"
+            placeholder="Shorten a link here..."
+            required="required"
+            class="Cont1__3--1"
+            name="Link"
+          />
+          <input
+            type="submit"
+            value="Shorten It!"
+            id="Cont1__3--2"
+            onmouseover="Function4()"
+          />
+          <script>
+            function Function4() {
+              document.getElementById("Cont1__4").style.cssText =
+                "display: flex;";
+              document.getElementById("Cont2__1").style.cssText =
+                "margin-top: 35px;";
+            }
+          </script>
+        </form>
+      </div>
+    </div>
+    <div class="Cont2">
+      <div id="Cont1__4" onmouseleave="Function5()">
+        <script>
+          function Function5() {
+            document.getElementById("Cont1__4").style.cssText =
+              "display: none;";
+            document.getElementById("Cont2__1").style.cssText =
+              "margin-top: 208px;";
+          }
+        </script>
+        <div class="Cont1__4--1">
+          <span>https://www.frontendmentor.io</span>
+          <p>https://rel.ink/k4lKyk</p>
+          <button id="but1" onclick="Function()" onmouseleave="Function7()">
+            Copy
+          </button>
+          <script>
+            function Function() {
+              document.getElementById("but1").style.cssText =
+                "background-color: rgba(58, 48, 84, 1);";
+              document.getElementById("but1").innerHTML = "Copied!";
+            }
+            function Function7() {
+              document.getElementById("but1").style.cssText =
+                "background-color: rgba(43, 208, 208, 1);";
+              document.getElementById("but1").innerHTML = "Copy";
+            }
+          </script>
+        </div>
+        <div class="Cont1__4--2">
+          <span>https://twitter.com/frontendmentor</span>
+          <p>https://rel.ink/gxOXp9</p>
+          <button id="but2" onclick="Function2()" onmouseleave="Function6()">
+            Copy
+          </button>
+          <script>
+            function Function2() {
+              document.getElementById("but2").style.cssText =
+                "background-color: rgba(58, 48, 84, 1);";
+              document.getElementById("but2").innerHTML = "Copied!";
+            }
+            function Function6() {
+              document.getElementById("but2").style.cssText =
+                "background-color: rgba(43, 208, 208, 1);";
+              document.getElementById("but2").innerHTML = "Copy";
+            }
+          </script>
+        </div>
+        <div class="Cont1__4--3">
+          <span>https://www.linkedin.com/company/frontend-mentor</span>
+          <p>https://rel.ink/gob3X9</p>
+          <button id="but3" onclick="Function3()" onmouseleave="Function8()">
+            Copy
+          </button>
+          <script>
+            function Function3() {
+              document.getElementById("but3").style.cssText =
+                "background-color: rgba(58, 48, 84, 1);";
+              document.getElementById("but3").innerHTML = "Copied!";
+            }
+            function Function8() {
+              document.getElementById("but3").style.cssText =
+                "background-color: rgba(43, 208, 208, 1);";
+              document.getElementById("but3").innerHTML = "Copy";
+            }
+          </script>
+        </div>
+      </div>
+      <div id="Cont2__1">
+        <p>Advanced Statistics</p>
+        <span
+          >Track how your links are performing across the web with our advanced
+          statistics dashboard.</span
+        >
+      </div>
+      <div class="Cont2__2">
+        <div class="Cont2__2--1">
+          <div>
+            <img src="./images/Cont2__2-img1.svg" alt="Resources" />
+          </div>
+          <p>Brand Recognition</p>
+          <span
+            >Boost your brand recognition with each click. Generic links don’t
+            mean a thing. Branded links help instil confidence in your
+            content.</span
+          >
+        </div>
+        <div class="Cont2__2--2"></div>
+        <div class="Cont2__2--3">
+          <div>
+            <img src="./images/Cont2__2-img2.svg" alt="Resources" />
+          </div>
+          <p>Detailed Records</p>
+          <span
+            >Gain insights into who is clicking your links. Knowing when and
+            where people engage with your content helps inform better
+            decisions.</span
+          >
+        </div>
+        <div class="Cont2__2--2"></div>
+        <div class="Cont2__2--5">
+          <div>
+            <img src="./images/Cont2__2-img3.svg" alt="Resources" />
+          </div>
+          <p>Fully Customizable</p>
+          <span
+            >Improve brand awareness and content discoverability through
+            customizable links, supercharging audience engagement.</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="Cont3">
+      <p>Boost your links today</p>
+      <button>Get Started</button>
+    </div>
+    <div class="Cont4">
+      <img src="./images/Shortly.svg" alt="Logo" class="Cont4__logo" />
+      <div class="Cont4__1">
+        <div class="Cont4__1--1">
+          <span>Features</span>
+          <a href="#">Link Shortening</a>
+          <a href="#">Branded Links</a>
+          <a href="#">Analytics</a>
+        </div>
+        <div class="Cont4__1--2">
+          <span>Resources</span>
+          <a href="#">Blog</a>
+          <a href="#">Developers</a>
+          <a href="#">Support</a>
+        </div>
+        <div class="Cont4__1--3">
+          <span>Company</span>
+          <a href="#">About</a>
+          <a href="#">Our Team</a>
+          <a href="#">Careers</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="Cont4__2">
+        <a href="https://www.facebook.com/"
+          ><img src="./images/Path.svg" alt="Path"
+        /></a>
+        <a href="https://twitter.com/"
+          ><img src="./images/Path-2.svg" alt="Path"
+        /></a>
+        <a href="https://ok.ru/"
+          ><img src="./images/Path-1.svg" alt="Path"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><img src="./images/Shape.svg" alt="Path"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
